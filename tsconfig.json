@@ -7,15 +7,16 @@
     "sourceMap": true,
     "strict": true,
     "moduleResolution": "node",
+    "declaration": true,
     "baseUrl": "./src",
-    /* Maps imports to locations - e.g. ~models will go to ./src/models */
+    "outDir": "./lib",
     "paths": {
       "~/*": ["./*"]
     },
     "typeRoots": ["node_modules/@types"],
-    /* allow import React instead of import * as React */
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true
   },
-  "include": ["src/**/*"]
+  "include": ["src/**/*"],
+  "exclude": ["**/*.test.ts", "**/*.test.tsx"]
 }
