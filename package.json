@@ -1,0 +1,34 @@
+{
+  "name": "tsx-conditionals",
+  "version": "1.0.0",
+  "description": "Express your conditional rendering logic in JSX/TSX",
+  "main": "src/index.tsx",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "test": "jest"
+  },
+  "keywords": [
+    "jsx",
+    "tsx",
+    "conditionals",
+    "control",
+    "flow"
+  ],
+  "author": "Alex McKay",
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/react": "^10.0.4",
+    "@types/jest": "^25.2.3",
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "jest": "^26.0.1",
+    "parcel-bundler": "^1.12.4",
+    "ts-jest": "^26.1.0",
+    "typescript": "^3.9.3"
+  },
+  "dependencies": {
+    "components": "^0.1.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
