@@ -1,14 +1,6 @@
 import {IfProps} from './types'
 
-export const If = ({
-  cond,
-  then,
-  orElse = null,
-}: {
-  cond: boolean
-  then: JSX.Element
-  orElse?: JSX.Element | null
-}) => {
+export const If = ({cond, then, orElse = null}: IfProps) => {
   if (cond) {
     return then
   } else {
